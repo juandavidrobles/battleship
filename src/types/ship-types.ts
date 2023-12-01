@@ -9,14 +9,14 @@ type Layout = {
 };
 
 type ShipTypes = {
-  carrier: Carrier;
-  battleship: Carrier;
-  cruiser: Carrier;
-  destroyer: Carrier;
-  submarine: Carrier;
+  carrier: ShipDetails;
+  battleship: ShipDetails;
+  cruiser: ShipDetails;
+  destroyer: ShipDetails;
+  submarine: ShipDetails;
 };
 
-type Carrier = {
+type ShipDetails = {
   size: number;
   count: number;
 };

@@ -4,6 +4,16 @@
 
 .boardContainer {
   border: 3px solid #ffb000;
+  height: 32rem;
+  width: 32rem;
+}
+
+.leftPanel {
+  flex-grow: 1;
+}
+
+.rightPanel {
+  flex-grow: 2;
 }
 
 .missCell {
@@ -12,7 +22,6 @@
 }
 
 .hitCell {
-  /* background-color: blue; */
   background-image: url("/assets/Hit.png");
   background-size: contain;
 }
