@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+}
+
+.boardContainer {
+  border: 3px solid #ffb000;
+}
+
+.missCell {
+  background-image: url("/assets/Miss.png");
+  background-size: contain;
+}
+
+.hitCell {
+  /* background-color: blue; */
+  background-image: url("/assets/Hit.png");
+  background-size: contain;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+}
